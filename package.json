@@ -1,0 +1,22 @@
+{
+  "name": "@dwidge/transcribe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prepare": "tsc",
+    "start": "node dist/index.js",
+    "test": "node --test",
+    "env:dev": "dotenv -c development npm run"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "groq-sdk": "^0.15.0",
+    "openai": "^4.61.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "dotenv-cli": "^7.4.2",
+    "typescript": "^5.6.2"
+  }
+}
